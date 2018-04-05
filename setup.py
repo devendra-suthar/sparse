@@ -11,21 +11,15 @@ with open('README.rst') as f:
 
 extras_require = {
     'tests': [
+        'tox',
         'pytest',
+        'pytest-flake8',
+        'pytest-cov'
     ],
     'docs': [
         'sphinx',
         'sphinxcontrib-napoleon',
         'sphinx_rtd_theme',
-    ],
-    'tox': [
-        'tox',
-    ],
-    'tests-linting': [
-        'pytest-flake8'
-    ],
-    'tests-cov': [
-        'pytest-cov'
     ],
     'bench': [
         'asv'
