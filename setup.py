@@ -22,7 +22,7 @@ extras_require = {
         'tox',
     ],
     'tests-linting': [
-        'flake8'
+        'pytest-flake8'
     ],
     'tests-cov': [
         'pytest-cov'

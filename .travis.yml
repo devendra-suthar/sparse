@@ -27,7 +27,6 @@ install:
 
 script:
   - py.test --cov-config .coveragerc --cov=./
-  - flake8
 
 after_success:
   - codecov -F python${TRAVIS_PYTHON_VERSION//./}
